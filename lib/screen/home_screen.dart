@@ -44,6 +44,8 @@ class _HomeScreenState extends State<HomeScreen> {
               height: 300.0,
               child: CupertinoDatePicker(
                 mode: CupertinoDatePickerMode.date,
+                initialDateTime: selectedDate,
+                maximumDate: DateTime.now(),
                 onDateTimeChanged: (DateTime date) {
                   // setState에 의해 build가 다시 실행된다.
                   setState(() {
