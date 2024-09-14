@@ -1,16 +1,13 @@
-# anniversary_counter
+# 개요
 
-A new Flutter project.
+특정 기념일로부터 얼마나 지났는지 일수(Day)를 보여주는 앱을 만든다.   
+날짜를 핸들링하기 위한 플러터의 `DateTime 타입`과 날짜 선택 관련 UI를 위한 `CupertinoDatePicker 위젯`을 다뤄본다.   
+또한, 변화하는 값인 날짜를 `state`로 관리한다.
 
-## Getting Started
+# 데모
 
-This project is a starting point for a Flutter application.
+### 날짜 선택
+![selecting](https://github.com/user-attachments/assets/984fb906-080a-4185-918a-7cc145e431cc)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 날짜 선택 완료
+![after select](https://github.com/user-attachments/assets/0df5144f-062b-4c0a-8453-4fbbf63c0eae)
